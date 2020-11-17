@@ -10,7 +10,7 @@ Adds RDM Header Token.
 ## PD To RDM Config
 
 - Enable Send Raw Data In Pogodroid
-- Point Pogodroid Raw To Connector Address
-- Add RDM Endpoint In PDToRDM.py: RDM_URL = "http://youserver:5000/raw"
+- Point Pogodroid RAW Post Destination To Connector Address (`http://IP:PORT/raw`)
+- Add RDM Endpoint In PDToRDM.py: RDM_URL = "http://youserver:5000"
 - Add RDM Token to PDToRDM.py: AUTH_TOKEN = 'YOURRDMTOKEN'
 - Startup.... python pdtordm.py (python3)
